@@ -6,7 +6,7 @@
 //  Copyright © 2015年 itcast. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 @class LGXMLParser;
 
 @protocol LGXMLParserDelegate <NSObject>
@@ -18,7 +18,7 @@
 
 @end
 
-@interface LGXMLParser : UIViewController
+@interface LGXMLParser : NSObject
 
 /**xml节点*/
 @property (strong, nonatomic) NSString *matchingElement;

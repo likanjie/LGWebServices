@@ -23,11 +23,6 @@
 
 @implementation LGXMLParser
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-    
-}
 
 - (void)LGXMLParserData:(NSData *)data
 {
@@ -96,11 +91,6 @@
     if (_soapResults) {
         _soapResults = nil;
     }
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
