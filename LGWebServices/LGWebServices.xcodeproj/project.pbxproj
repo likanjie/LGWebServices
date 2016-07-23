@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43BEA07D363CDA4D15F746AD /* libPods-LGWebServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F820C92A2E3FC2E329FD7AA /* libPods-LGWebServices.a */; };
+		C2E1CAC11D43449D008B6910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1CAC01D43449D008B6910 /* main.m */; };
+		C2E1CAC41D43449D008B6910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1CAC31D43449D008B6910 /* AppDelegate.m */; };
+		C2E1CAC71D43449D008B6910 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1CAC61D43449D008B6910 /* ViewController.m */; };
+		C2E1CACA1D43449D008B6910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E1CAC81D43449D008B6910 /* Main.storyboard */; };
+		C2E1CACC1D43449D008B6910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E1CACB1D43449D008B6910 /* Assets.xcassets */; };
+		C2E1CACF1D43449D008B6910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E1CACD1D43449D008B6910 /* LaunchScreen.storyboard */; };
+		C2E1CAD91D4346D7008B6910 /* LGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1CAD81D4346D7008B6910 /* LGHTTPClient.m */; };
+		C2E1CADD1D4346DF008B6910 /* LGXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E1CADC1D4346DF008B6910 /* LGXMLParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F820C92A2E3FC2E329FD7AA /* libPods-LGWebServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGWebServices.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE554148D018734665E6146 /* Pods-LGWebServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGWebServices.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGWebServices/Pods-LGWebServices.release.xcconfig"; sourceTree = "<group>"; };
+		C2E1CABC1D43449D008B6910 /* LGWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E1CAC01D43449D008B6910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2E1CAC21D43449D008B6910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2E1CAC31D43449D008B6910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2E1CAC51D43449D008B6910 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2E1CAC61D43449D008B6910 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2E1CAC91D43449D008B6910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E1CACB1D43449D008B6910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E1CACE1D43449D008B6910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E1CAD01D43449D008B6910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E1CAD71D4346D7008B6910 /* LGHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHTTPClient.h; sourceTree = "<group>"; };
+		C2E1CAD81D4346D7008B6910 /* LGHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHTTPClient.m; sourceTree = "<group>"; };
+		C2E1CADB1D4346DF008B6910 /* LGXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGXMLParser.h; sourceTree = "<group>"; };
+		C2E1CADC1D4346DF008B6910 /* LGXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGXMLParser.m; sourceTree = "<group>"; };
+		E1361421E5CF542DF5DE4547 /* Pods-LGWebServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGWebServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGWebServices/Pods-LGWebServices.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E1CAB91D43449D008B6910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BEA07D363CDA4D15F746AD /* libPods-LGWebServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852C2877B6A70F4EAA8D5C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F820C92A2E3FC2E329FD7AA /* libPods-LGWebServices.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E1CAB31D43449D008B6910 = {
+			isa = PBXGroup;
+			children = (
+				C2E1CABE1D43449D008B6910 /* LGWebServices */,
+				C2E1CABD1D43449D008B6910 /* Products */,
+				CEB9A70B3E36720CDEFA02E7 /* Pods */,
+				852C2877B6A70F4EAA8D5C89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E1CABD1D43449D008B6910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1CABC1D43449D008B6910 /* LGWebServices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E1CABE1D43449D008B6910 /* LGWebServices */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1CADA1D4346DF008B6910 /* LGXMLParser */,
+				C2E1CAD61D4346D7008B6910 /* LGHTTPClient */,
+				C2E1CAC21D43449D008B6910 /* AppDelegate.h */,
+				C2E1CAC31D43449D008B6910 /* AppDelegate.m */,
+				C2E1CAC51D43449D008B6910 /* ViewController.h */,
+				C2E1CAC61D43449D008B6910 /* ViewController.m */,
+				C2E1CAC81D43449D008B6910 /* Main.storyboard */,
+				C2E1CACB1D43449D008B6910 /* Assets.xcassets */,
+				C2E1CACD1D43449D008B6910 /* LaunchScreen.storyboard */,
+				C2E1CAD01D43449D008B6910 /* Info.plist */,
+				C2E1CABF1D43449D008B6910 /* Supporting Files */,
+			);
+			path = LGWebServices;
+			sourceTree = "<group>";
+		};
+		C2E1CABF1D43449D008B6910 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1CAC01D43449D008B6910 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E1CAD61D4346D7008B6910 /* LGHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1CAD71D4346D7008B6910 /* LGHTTPClient.h */,
+				C2E1CAD81D4346D7008B6910 /* LGHTTPClient.m */,
+			);
+			name = LGHTTPClient;
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		C2E1CADA1D4346DF008B6910 /* LGXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				C2E1CADB1D4346DF008B6910 /* LGXMLParser.h */,
+				C2E1CADC1D4346DF008B6910 /* LGXMLParser.m */,
+			);
+			path = LGXMLParser;
+			sourceTree = "<group>";
+		};
+		CEB9A70B3E36720CDEFA02E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1361421E5CF542DF5DE4547 /* Pods-LGWebServices.debug.xcconfig */,
+				4FE554148D018734665E6146 /* Pods-LGWebServices.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E1CABB1D43449D008B6910 /* LGWebServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E1CAD31D43449D008B6910 /* Build configuration list for PBXNativeTarget "LGWebServices" */;
+			buildPhases = (
+				8610CB773BA0FEAE8D319750 /* [CP] Check Pods Manifest.lock */,
+				C2E1CAB81D43449D008B6910 /* Sources */,
+				C2E1CAB91D43449D008B6910 /* Frameworks */,
+				C2E1CABA1D43449D008B6910 /* Resources */,
+				3F720DB880E7482549FC2E17 /* [CP] Embed Pods Frameworks */,
+				3AEE74F0570D4616475A4432 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGWebServices;
+			productName = LGWebServices;
+			productReference = C2E1CABC1D43449D008B6910 /* LGWebServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E1CAB41D43449D008B6910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DM;
+				TargetAttributes = {
+					C2E1CABB1D43449D008B6910 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C2E1CAB71D43449D008B6910 /* Build configuration list for PBXProject "LGWebServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E1CAB31D43449D008B6910;
+			productRefGroup = C2E1CABD1D43449D008B6910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E1CABB1D43449D008B6910 /* LGWebServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E1CABA1D43449D008B6910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E1CACF1D43449D008B6910 /* LaunchScreen.storyboard in Resources */,
+				C2E1CACC1D43449D008B6910 /* Assets.xcassets in Resources */,
+				C2E1CACA1D43449D008B6910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEE74F0570D4616475A4432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGWebServices/Pods-LGWebServices-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F720DB880E7482549FC2E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGWebServices/Pods-LGWebServices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8610CB773BA0FEAE8D319750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E1CAB81D43449D008B6910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E1CADD1D4346DF008B6910 /* LGXMLParser.m in Sources */,
+				C2E1CAC71D43449D008B6910 /* ViewController.m in Sources */,
+				C2E1CAC41D43449D008B6910 /* AppDelegate.m in Sources */,
+				C2E1CAC11D43449D008B6910 /* main.m in Sources */,
+				C2E1CAD91D4346D7008B6910 /* LGHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2E1CAC81D43449D008B6910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E1CAC91D43449D008B6910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E1CACD1D43449D008B6910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E1CACE1D43449D008B6910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E1CAD11D43449D008B6910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E1CAD21D43449D008B6910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E1CAD41D43449D008B6910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1361421E5CF542DF5DE4547 /* Pods-LGWebServices.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGWebServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianmeng.www.LGWebServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2E1CAD51D43449D008B6910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE554148D018734665E6146 /* Pods-LGWebServices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGWebServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianmeng.www.LGWebServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E1CAB71D43449D008B6910 /* Build configuration list for PBXProject "LGWebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E1CAD11D43449D008B6910 /* Debug */,
+				C2E1CAD21D43449D008B6910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E1CAD31D43449D008B6910 /* Build configuration list for PBXNativeTarget "LGWebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E1CAD41D43449D008B6910 /* Debug */,
+				C2E1CAD51D43449D008B6910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E1CAB41D43449D008B6910 /* Project object */;
+}
